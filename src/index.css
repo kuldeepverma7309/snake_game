@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1a202c; /* Dark background for the game */
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.snake-dot, .food {
+  border-radius: 50%; /* Rounded corners for snake and food */
+}
