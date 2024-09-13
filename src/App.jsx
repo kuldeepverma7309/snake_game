@@ -94,6 +94,7 @@ const App = () => {
       setScore(0);
       setFood(generateFood());
       speedRef.current = 600;
+      stopGame()
       alert(`Game Over! Your score is ${score}`);
       return [INITIAL_SNAKE];
     }
