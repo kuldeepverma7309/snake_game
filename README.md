@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/snake-game.git
+    git clone https://github.com/kuldeepverma7309/snake_game.git
     cd snake-game
     ```
 
